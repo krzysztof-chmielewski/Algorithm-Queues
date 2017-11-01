@@ -104,6 +104,7 @@ public class Task8 {
 
         }
     }
+
     private static void addShouldThrowExceptionIfThereIsNoMoreFreeSpace(Queue<Integer> queue, Integer element) {
         try {
             queue.add(element);
